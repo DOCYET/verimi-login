@@ -11,8 +11,8 @@ class VerimiAPI
     @base_uri = URI.parse('https://verimi.com/dipp/api/')
     @grant_type = 'authorization_code'
     @redirect_uri = 'http://localhost:4200/verimi-callback'
-    @client_id = 'DB'
-    @client_secret = 'G|41|0an18ZIs_w'
+    @client_id = 'your_client_id'
+    @client_secret = 'your_secret'
   end
 
   # Requests Verimi API access token
